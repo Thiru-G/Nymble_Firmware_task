@@ -1,6 +1,6 @@
 
 //This is the Firmware code for Nymble Task https://nymblelabs.notion.site/Firmware-Task-5177116a6cb94643871d8cf39c1f345f
-// This particular code is the cpp based version of the fw where the CPP file contains all the required functions.
+//This particular code is the cpp based version of the firmware where the .cpp file contains all the required functions.
 
 
 #include "TaskFirmware.h"
