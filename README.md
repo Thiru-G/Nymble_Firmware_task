@@ -17,7 +17,7 @@ ESP32 Dev Kit: The ESP32 microcontroller development board is used for testing t
 ## Implementation:
 
 ### MCU Firmware :
-- .CPP and .H based INO file solution: Utilizes separate .cpp [(PC_Code_UI.py)](Nymble/PC_Code_UI.py) and .h [(PC_Code_UI.py)](Nymble/PC_Code_UI.py) files for better code organization.
+- .CPP and .H based INO file solution [(TaskFirmware)](Nymble/TaskFirmware): Utilizes separate .cpp and .h files for better code organization.
 - PC Code: 
   - Written in Python, establishes UART communication with the MCU, sends text data, and receives stored data.
   - [PC_Code_UI.py](Nymble/PC_Code_UI.py) is a UI solution for the PC side code.
