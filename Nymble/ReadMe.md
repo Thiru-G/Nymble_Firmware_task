@@ -1,8 +1,8 @@
 #Note
 
 ## PC Code :
-Use [FirmwareTask.py](/FirmwareTask.py/) to use simple console based PC Code
-Use [PC_Code_UI.py](/PC_Code_UI.py) to use GUI based PC Code
+- Use [Pc_Code_simple.py](/Nymble/Pc_Code_simple.py) to use simple console based PC Code.
+- Use [PC_Code_UI.py](/Nymble/PC_Code_UI.py) to use GUI based PC Code.
 
 ## Firmware : 
-- Firmware is contructed using a simple logical approach. As the requirement was to use CPP based firmware and a well structured and scalable one this is the solution. Single Sketch solution also available.
+The Firmware is contructed using a simple logical approach. Since the requirement was to use CPP based firmware with structured and scalable features, this is one such solution. A Single Sketch solution is also available.
