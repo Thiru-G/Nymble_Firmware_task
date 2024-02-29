@@ -7,22 +7,23 @@ This project implements various firmware solutions for transmitting data between
 - Data storage in MCU EEPROM.
 - Real-time measurement of data transmission/reception speed.
 - Multiple solutions provided, including:
- -.CPP and .H based INO file solution for Arduino.
- -PC code written in Python for communication with MCU.
- -PC Code with UI 
+  - .CPP and .H based INO file solution for Arduino.
+  - PC code written in Python for communication with MCU.
+  - PC Code with UI 
 
 ### MCU Used :
 ESP32 Dev Kit: The ESP32 microcontroller development board is used for testing the firmware solutions.
-Implementation
 
-## MCU Firmware :
+## Implementation:
+
+### MCU Firmware :
 - .CPP and .H based INO file solution: Utilizes separate .cpp and .h files for better code organization.
-PC Code: 
-- Written in Python, establishes UART communication with the MCU, sends text data, and receives stored data.
-- [PC_Code_UI.py](/Nymble) is a UI solution for the PC side code.
+- PC Code: 
+  - Written in Python, establishes UART communication with the MCU, sends text data, and receives stored data.
+  - [PC_Code_UI.py](/Nymble) is a UI solution for the PC side code.
 ### How to Use :
-- Connect the  MCU to the PC via UART. Set BAUD RATE at 2400
+- Connect the  MCU to the PC via UART. Set BAUD RATE at 2400.
 - Choose the desired MCU firmware solution and upload it to the microcontroller.
-- Run the PC code on the computer. No major dependencies only Pyserial is required (Can be downloaded using `pip install Pyserial` in terminal)
+- Run the PC code on the computer. No major dependencies except for Pyserial which can be downloaded using `pip install Pyserial` in the terminal.
 - Follow the instructions provided by the PC code to initiate data transmission.
 - Monitor the console output for real-time data transmission/reception speed, number of bits transferred and received data.
